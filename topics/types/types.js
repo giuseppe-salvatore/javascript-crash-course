@@ -1,0 +1,10 @@
+console.log("There are 7 primitive data types in modern javascript");
+console.log("- " + (typeof 1) + " // typeof 1");
+console.log("- " + (typeof true) + " // typeof true");
+console.log("- " + (typeof '') + " // typeof ''");
+console.log("- " + (typeof undefined) + " // typeof undefined");
+console.log("- " + (typeof 10n) + " // typeof undefined");
+console.log("- " + (typeof console.log) + " // typeof undefined");
+console.log("- " + (typeof function foo() {}) + " // typeof undefined");
+console.log("- " + (typeof(function foo() {})) + " // typeof undefined");
+console.log("- " + (typeof(() => {})) + " // typeof undefined");
